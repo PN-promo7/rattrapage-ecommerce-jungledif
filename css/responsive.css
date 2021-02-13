@@ -1,0 +1,244 @@
+@media only screen and (max-device-width : 640px) {
+  .container {
+    width: 90%;
+  }
+/* --MENU BURGER-- */
+  .fa-bars {
+    display: block !important;
+    color: black;
+    font-size: 45px;
+    position: absolute;
+    top: 12px;
+    right: 13px;
+  }
+  .fa-bars:hover~.main-nav-right {
+    border-top: 1px solid black;
+  }
+
+  /* --HIDE DESKTOP MENU AND SHOW MOBILE MENU-- */
+  .menu-desktop {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: block;
+  }
+
+  .menu:first-child {
+    border-left: unset;
+  }
+
+  .menu-container {
+    display: flex !important;
+    position: fixed;
+  }
+
+  .menu-content {
+    position: absolute;
+    top: -445px;
+    background-color: #DEC90C;
+  }
+
+  .main-nav-left .menu {
+    display: block;
+  }
+
+  .menu {
+    border-right: unset;
+  }
+
+  .logoImg{
+    display: contents;
+  }
+
+/* -------------------HEADER SIZE----------------------- */
+  header {
+    height: 35%;
+  }
+
+  .headertitle {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .headerbtn {
+    padding: 10px;
+    width: 130px;
+    font-size: 14px;
+  }
+
+  .line {
+    display: block;
+  }
+/*--CATEGORIES SIZE- */
+  .categorie {
+    display: block;
+    width: auto;
+    margin-right: unset;
+  }
+
+  .categorie-img {
+    border-radius: 15px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+/* --ARTICLES SIZE-- */
+  .articles {
+    display: block !important;
+  }
+
+  .single-product {
+    margin-right: unset;
+    margin-bottom: 15px;
+  }
+
+  .marginh2 {
+    margin-left: unset;
+  }
+
+  .img-container {
+    width: 100%;
+  }
+
+  .text-container {
+    width: 100%;
+  }
+
+  .banner {
+    display: block;
+  }
+
+  .blog {
+    font-size: 16px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: unset;
+  }
+/* --FOOTER SIZE-- */
+
+/* ------ADVANTAGES------ */
+  .site-advantages {
+    display: block;
+  }
+
+  .advantages {
+    font-size: 15px;
+    width: 33%;
+    vertical-align: top;
+    margin-right: 15px;
+    margin-left: unset;
+  }
+  .advantages p{
+  font-size: small;
+  }
+  .five {
+      width: 40px;
+  }
+  /* --NEWSLETTER-- */
+  input {
+    width: 195px;
+  }
+  .mail-container {
+    width: auto;
+    float: unset;
+  }
+
+/* --PAYMENTS-- */
+  .payment-icons {
+    height: 60px;
+  }
+
+  .footer-payment {
+    float: unset;
+  }
+
+
+/* --HIDE BACK TO TOP BUTTON-- */
+  .guitar {
+    display: none;
+  }
+  /* --BLOG-- */
+
+/* --FOOTER MENU-- */
+.copyright {
+  font-size: 12px;
+}
+
+.menufooter {
+  margin-right: 5px;
+  font-size: 11px;
+  display: inline;
+}
+.rem1-2 {
+    margin-bottom: 15px;
+  }
+  /* --SOCIAL LINKS-- */
+  .social-icons {
+    height: 53px;
+    margin-top: 10px;
+  }
+  .facebook-icon{
+    height: 57px;
+  }
+}
+
+@media only screen and (max-device-width : 425px) {
+
+  .fa-bars {
+    top: 10px;
+    right: 10px;
+  }
+  .headerbtn {
+    filter: drop-shadow(2px 2px 20px red) invert(5%);
+  }
+
+  .title-logo {
+    width: 85%;
+  }
+
+}
+
+@media only screen and (max-device-width : 375px) {
+  .container {
+    width: 90%;
+  }
+
+  header {
+    height: 35%;
+  }
+
+  .headerbtn {
+    filter: drop-shadow(2px 2px 20px red) invert(5%);
+  }
+}
+
+@media only screen and (max-device-width : 320px) {
+  .container {
+    width: 90%;
+  }
+
+  header {
+    height: 30%;
+  }
+
+  h3 {
+    font-size: 11px;
+  }
+
+  .fa-bars {
+    font-size: 35px;
+    top: 8px;
+    right: 9px;
+  }
+
+  .headerbtn {
+    filter: drop-shadow(2px 2px 20px red) invert(5%);
+  }
+  .blogimgText{
+    font-size: 0.8rem;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+}
